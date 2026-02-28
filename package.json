@@ -1,7 +1,14 @@
 {
-  "name": "test",
+  "name": "@neenapk/test",
   "version": "1.0.0",
-  "description": "This is the updated content of the README in repo.",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neenapk/test.git"
+  },
+  "description": "This is the dummy package.json for testing purposes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
