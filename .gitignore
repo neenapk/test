@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Secrets - DO NOT REMOVE THIS
+.npmrc
+
+# Mac system files
+.DS_Store
+
+# Logs
+npm-debug.log*
